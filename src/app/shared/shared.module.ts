@@ -19,7 +19,8 @@ import { WebsiteRoutingModule } from '@modules/website/website-routing.module';
     WebsiteRoutingModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
